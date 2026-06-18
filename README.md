@@ -38,3 +38,15 @@
 - **dynamic programming** - refers to a collection of algorthms that can be used to compute the optimal policies given a perfect model of the environment as in MDP
   - has limited utility in Reinforcement Learning because it assumes a perfect model and is computationally expensive
   - **key idea of dynamic programming and reinforcement learning in general is to use the value functions to organize and structure the search for obtaining good policies**
+ 
+## Q-Learning
+- 
+ 
+## State-Action-Reward-State-Action (SARSA)
+- **SARSA** - is a model-free reinforcement learning method that waits until the end of an episode to update the state-action value function; similar to Q-Learning except SARSA is an *on-policy* learning process while Q-Learning is an *off-policy* learning process
+
+
+## Function Approximation in Reinforcement Learning
+- In tabular methods of RL like Dynamic Programming and Monte Carlo, the representation of the state is actually memorization of each state. This means that everytime a feature or a variable has a new value, it results in a new state. For small numbers of states this is manageable but at large scales amount of time needed to compute the value of each state becomes too huge making DP and MC insufficient and unsuitable
+- To address this issue, a new approach can be adopted based on the features of each state to generalize the estimation of the value at states that have similar features. Here the word estimation is used to indicate that the approach will determine an approximate value of the state and not the true value of the state. These approaches are called *function approximators*
+- 
